@@ -1,6 +1,10 @@
+import Main from "./pages/Main";
+
 function App() {
   return (
-    <h1>Hellow from new project</h1>
+    <>
+      <Main />
+    </>
   );
 }
 
