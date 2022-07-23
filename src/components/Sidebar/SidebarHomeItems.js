@@ -16,7 +16,7 @@ const homeItemsData = [
 
 const SidebarHomeItems = () => {
     return (
-        <div className='mt-6'>
+        <div className='mt-[6rem]'>
             <h1 className='px-8 mb-4 font-inter font-semibold text-base text-[#ADB5BD]'>Home</h1>
             <ul className='px-3'>
                 {homeItemsData.map(data => <SideBarMenuItem key={data.id} data={data} />)}

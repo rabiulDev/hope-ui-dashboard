@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center bg-white px-8 py-[12.8px]'>
             {/* Search Field  */}
-            <div>
+            <div className='shrink'>
                 <div className='flex border rounded hover:border-blue-400 px-5 py-2 pr-10 ml-3'>
                     <img src={searchIcon} alt="" />
                     <input className='focus:outline-none ml-3' type="text" placeholder='Search...' />

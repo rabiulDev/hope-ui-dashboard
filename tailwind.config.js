@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'inter': ['Inter, sans-serif'],
+      },
+
+      backgroundImage: {
+        'dash-header': "url('/src/assets/header_bg.png')",
       }
     },
   },
