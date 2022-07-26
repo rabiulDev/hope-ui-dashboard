@@ -1,5 +1,6 @@
 import DashBody from '../components/DashBody/DashBody'
 import DashHeader from '../components/DashHeader/DashHeader'
+import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import SideBarHeader from '../components/Sidebar/SideBarHeader'
 import SidebarHomeItems from '../components/Sidebar/SidebarHomeItems'
@@ -37,6 +38,7 @@ const Main = () => {
                 <Navbar />
                 <DashHeader />
                 <DashBody />
+                <Footer />
             </div>
 
 

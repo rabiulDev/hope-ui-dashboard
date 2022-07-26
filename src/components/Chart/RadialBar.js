@@ -8,6 +8,7 @@ const RadialBar = () => {
             height: 350,
             type: 'radialBar',
         },
+        colors: ['#3A57E8', '#85F4FA'],
         plotOptions: {
             radialBar: {
                 dataLabels: {
@@ -41,7 +42,7 @@ const RadialBar = () => {
             <div>
                 <div className='flex items-center'>
                     <span className='inline-block mr-2 w-[13px] h-[13px] bg-blue-600 rounded-full'></span>
-                    <div className='font-inter text-base ml-3'>
+                    <div className='font-inter text-base ml-1'>
                         <p className='text-slate-300'> Fashion</p>
                         <p> 551K</p>
                     </div>
@@ -49,7 +50,7 @@ const RadialBar = () => {
 
                 <div className='flex items-center mt-12'>
                     <span className='inline-block mr-2 w-[13px] h-[13px] bg-cyan-400 rounded-full'></span>
-                    <div className='font-inter text-base ml-3'>
+                    <div className='font-inter text-base ml-1'>
                         <p className='text-slate-300'> Accessories</p>
                         <p> 176K</p>
                     </div>

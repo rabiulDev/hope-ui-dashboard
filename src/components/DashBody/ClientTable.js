@@ -8,7 +8,7 @@ import { Line } from 'rc-progress';
 
 const ClientTable = () => {
     return (
-        <div className='bg-white rounded-lg mt-4 py-1'>
+        <div className='bg-white rounded-lg mt-4  h-full'>
             <div className='p-6 flex items-center justify-between'>
                 <div className='font-inter'>
                     <p className='font-medium text-[19px] text-[#232D42]'>Enterprise Clients</p>
@@ -29,7 +29,7 @@ const ClientTable = () => {
 
             <div>
 
-                <table className='w-full'>
+                <table className='w-full '>
                     <tr className='bg-[#F5F6FA] font-inter font-medium text-base text-[#8A92A6] text-left border-spacing-2'>
                         <th className='p-2'>COMPANIES</th>
                         <th>CONTACTS</th>
@@ -141,7 +141,7 @@ const ClientTable = () => {
                         </td>
 
                         <td>
-                            <span className='inline-block w-11 h-11 bg-white border-[2px] border-[#3A57E8] rounded-full text-[#3A57E8] text-center leading-10 -ml-3'> MM</span>
+                            <span className='inline-block w-11 h-11 bg-white border-[2px] border-[#3A57E8] rounded-full text-[#3A57E8] text-center leading-10 '> MM</span>
                         </td>
 
                         <td>
