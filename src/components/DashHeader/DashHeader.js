@@ -15,7 +15,7 @@ const DashHeader = () => {
 
 
     return (
-        <div className='bg-dash-header bg-no-repeat bg-cover h-52 px-10 pt-4 rounded-b-2xl relative scroll'>
+        <div className='bg-dash-header bg-no-repeat bg-cover h-52 px-10 pt-4 rounded-b-2xl relative mt-[71px]'>
             <div className='font-inter text-white space-y-2'>
                 <div className='flex items-center justify-between '>
                     <h1 className=' font-bold text-4xl '>Hello Devs !</h1>
@@ -31,21 +31,20 @@ const DashHeader = () => {
             {/* Header cart  */}
             <div className='absolute -bottom-16'>
                 <Swiper
-                    // breakpoints={{
-                    //     576: {
-                    //         width: 576,
-                    //         slidesPerView: 3,
-                    //     },
-                    //     768: {
-                    //         width: 768,
-                    //         slidesPerView: 5,
-                    //     },
-                    // }}
+                    breakpoints={{
+                        576: {
+
+                            slidesPerView: 2
+                        },
+                        768: {
+
+                            slidesPerView: 4
+                        },
+                    }}
                     modules={[Navigation]}
                     spaceBetween={0}
-                    slidesPerView={4}
                     navigation
-                    className='w-[1060px]'
+                    className='max-w-[1020px]'
                 >
                     <SwiperSlide><DashHeaderCartItem /></SwiperSlide>
                     <SwiperSlide><DashHeaderCartItem /></SwiperSlide>

@@ -22,7 +22,7 @@ const DashHeaderCartItem = () => {
 
 
     return (
-        <div className='flex items-center w-60 h-32 bg-white rounded-lg shadow-md first:pl-8'>
+        <div className='flex items-center w-60 h-32 bg-white rounded-lg pl-3'>
 
             <ReactApexChart options={chartData.options} series={chartData.series} type="radialBar" height={140} width={100} />
 

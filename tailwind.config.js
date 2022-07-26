@@ -9,8 +9,10 @@ module.exports = {
 
       backgroundImage: {
         'dash-header': "url('/src/assets/header_bg.png')",
+        'dash-side': "url('/src/assets/dashSide.png')",
+        'side-dash-card': "url('/src/assets/sideDashCard.png')"
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
 }
